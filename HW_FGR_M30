@@ -9,7 +9,6 @@ void arrayFormation(vector <int>&, int);
 void ckeckArray(vector <int>&);
 void quicksort(vector<int>&, int, int);
 
-
 int main()
 {
     SetConsoleCP(1251);
