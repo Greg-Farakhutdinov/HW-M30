@@ -37,7 +37,6 @@ void ThreadPool::push_task(FuncType f, vector<int>& arr, int a, int b)
 	m_thread_queues[queue_to_push].push(task);
 }
 
-
 void ThreadPool::threadFunc(int qindex)
 {
 	//бесконечный цикл читает задачи из очереди
